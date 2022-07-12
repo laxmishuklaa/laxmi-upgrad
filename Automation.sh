@@ -32,7 +32,7 @@ s3_bucket=upgrad-laxmishukla
 aws s3 cp /tmp/$name-httpd-logs-$timestamp.tar s3://$s3_bucket/$name-httpd-logs-$timestamp.tar
 
 
-#Bookeeping
+#-->Bookeeping
 cd /var/www/html/  
 if [ -f "inventory.html" ]
 then
